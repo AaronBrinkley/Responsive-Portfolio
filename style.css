@@ -1,0 +1,589 @@
+body {
+	
+	background: url("https://i.imgur.com/PTkqTEo.png");
+	font-family: Arial ;
+	width: 100%
+	color: #777777 ;
+}
+
+
+
+#BigMain {
+	margin-top: 100px ;
+	width: 960px ;
+	height: 40% ;
+	margin-left: 0px ;
+	margin-right: 0px ;
+	padding: 10px ;
+	float: left;
+	margin-left: 50px ;
+	margin-right: 50px ;
+
+
+}
+
+
+
+#Name {
+	float: left ;
+	color: #ffffff ;
+}
+
+#Tabs {
+	float: right ;
+}
+
+li {
+	float: left ;
+	margin-left: 15px ;
+	list-style: none ;
+	bottom: 0 ;
+	padding-top: 15px ;
+}
+
+#Header {
+	top: 0 ;
+	position: absolute ;
+	width: 80% ;
+	background: #ffffff ;
+}
+
+#Container {
+	margin: 0 auto ;
+}
+
+#Side {
+	float: right ;
+	background: #ffffff ;
+	text-align: center ;
+	margin-left: 0px ;
+	top: 0 ;
+	width: 270px ;
+
+}
+
+p {
+	
+	padding-top: 15px ;
+	line-height: 20px ;
+}
+
+img {
+	float: left ;
+	margin-right: 20px ;
+	padding-top: 15px ;
+}
+
+h1 {
+	font-family: Georgia ;
+	padding-left: 5px ;
+	padding-right: 5px ;
+}
+
+.IndImg {
+	height: 200px ;
+	width: 200px ;
+}
+
+#Boutme {
+	border-bottom: 4px solid #cccccc ;
+}
+
+#Name {
+	background: #4aaaa5 ;
+	 ;
+}
+
+ul {
+	padding-right: 5px ;
+}
+
+#Footer {
+	background: #666666 ;
+	bottom: 0 ;
+	height: 100px ;
+	width: 100% ;
+	text-align: center ;
+	border-top: 10px solid #4aaaa5 ;
+	float: left;
+}
+
+form {
+	height: 100px ;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+#BigMain form {
+	background: #ffffff ;
+}
+
+form {
+	background: #ffffff ;
+	margin-top: 10px ;
+}
+
+#Sub {
+	background: #ffffff ;
+
+}
+
+.class {
+	background: #ffffff ;
+}
+
+#MainWrap {
+	width: 650px ;
+	background: #ffffff ;
+	float: left;
+	padding: 10px ;
+	height: 530px ;
+}
+
+#IndMW {
+	width: 650px ;
+	background: #ffffff ;
+	float: left;
+	padding: 10px ;
+	height: 530px ;
+	
+}
+
+#PortMW {
+	width: 650px ;
+	background: #ffffff ;
+	float: left;
+	padding: 10px ;
+	height: 530px ;
+
+}
+
+input {
+	background: #ffffff ;
+}
+
+#Msg {
+	background: #ffffff ;
+}
+
+.imageHolder {
+    position: relative;
+    width: 285px;
+    height: 175px;
+}
+.imageHolder .caption {
+    position: absolute;
+    width: 283px;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    color: #ffffff;
+    background: green;
+	text-align:center;
+	font-weight:bold;
+	opacity:0.7;
+}
+
+.Bigcontain {
+	width: 981px ;
+	margin: 0px auto ;
+}
+
+.Site-footer {
+	margin-top: 800px ;
+	padding-top: 30px ;
+	background: #666666 ;
+	border-top: 10px solid #4aaaa5 ;
+	bottom: 0 ;
+	position: absolute;
+	width: 100% ;
+}
+
+@media screen and (max-width: 980px){
+	
+	.Bigcontain {
+		width: 100% ;
+	}
+
+
+
+	#BigMain {
+	margin-top: 100px ;
+	width: 760px ;
+	/*height: 600px ;*/
+	margin-left: 0px ;
+	margin-right: 0px ;
+	padding: 10px ;
+	float: none ;
+	margin-left: 50px ;
+	margin-right: 50px ;
+	margin-bottom: 30px
+
+
+}
+
+#Header {
+	top: 0 ;
+	position: absolute ;
+	width: 88% ;
+	background: #ffffff ;
+	margin: 0 auto ;
+}
+
+
+
+
+	#MainWrap {
+	width: 50% ;
+	background: #ffffff ;
+	float: left ;
+	padding: 10px ;
+	/*height: 70% ;*/
+	overflow: auto;
+	/*height: 1000px ;*/
+}
+
+#IndMW {
+	width: 50% ;
+	background: #ffffff ;
+	float: left ;
+	padding: 10px ;
+	/*height: 70% ;*/
+	overflow: auto;
+	height: 590px ;
+}
+
+
+	#Side {
+	float: right ; 
+	background: #ffffff ;
+	text-align: center ;
+	margin-left: 0px ;
+	top: 0;
+	width: 36% ;
+	margin-top: 0px ;
+	/*clear: both;*/
+
+}
+
+#Sidepics{
+
+	display: block ;
+	margin: 0 auto ;
+	float: none;
+}
+
+#Footer {
+	background: #666666 ;
+	bottom: 0 ;
+	height: 100px ;
+	width: 100% ;
+	text-align: center ;
+	border-top: 10px solid #4aaaa5 ;
+	float: left;
+}
+
+.Site-footer {
+	margin-top: 400px ;
+	padding-top: 30px ;
+	background: #666666 ;
+	border-top: 10px solid #4aaaa5 ;
+	bottom: 0 ;
+	position: inherit;
+	width: 100% ;
+}
+
+.IndImg {
+	height: 200px ;
+	width: 200px ;
+	float: none ;
+}
+
+#PortMW {
+	width: 60% ;
+	background: #ffffff ;
+	float: left ;
+	padding: 10px ;
+	/*height: 70% ;*/
+	/*overflow: auto;*/
+	height: 1000px ;
+
+}
+
+/*.gallery {
+	background: blue ;
+}*/
+
+
+}
+
+@media screen and (max-width: 768px){
+
+.Bigcontain {
+		width: 100% ;
+	}
+
+	#BigMain {
+	margin-top: 100px ;
+	width: 760px ;
+	height: 800px ;
+	margin-left: 0px ;
+	margin-right: 0px ;
+	padding: 10px ;
+	float: none ;
+	margin-left: 50px ;
+	margin-right: 50px ;
+	margin-bottom: 30px
+
+
+}
+
+#MainWrap {
+	width: 60% ;
+	background: #ffffff ;
+	float: left ;
+	padding: 10px ;
+	/*height: 70% ;*/
+	overflow: auto;
+	/*height: 1000px ;*/
+	
+}
+
+#IndMW {
+	width: 60% ;
+	background: #ffffff ;
+	float: left ;
+	padding: 10px ;
+	/*height: 70% ;*/
+	overflow: auto;
+	/*height: 1000px ;*/
+	height: 600px ;
+
+}
+
+#Side {
+	float: left ; 
+	background: #ffffff ;
+	text-align: center ;
+	margin-left: 0px ;
+	top: 30px ;
+	width: 60% ;
+	margin-top: 30px ;
+	/*bottom: 0 ;*/
+	margin-bottom: 150px ;
+
+}
+
+#Header {
+	top: 0 ;
+	position: absolute ;
+	width: 88% ;
+	background: #ffffff ;
+	margin: 0 auto ;
+}
+
+#Footer {
+	background: #666666 ;
+	bottom: 0 ;
+	height: 100px ;
+	width: 100% ;
+	text-align: center ;
+	border-top: 10px solid #4aaaa5 ;
+	float: left;
+}
+
+.Site-footer {
+	margin-top: 400px ;
+	padding-top: 30px ;
+	background: #666666 ;
+	border-top: 10px solid #4aaaa5 ;
+	bottom: 0 ;
+	position: inherit;
+	width: 100% ;
+}
+
+#BigMain {
+	margin-top: 100px ;
+	width: 760px ;
+	height: 600px ;
+	margin-left: 0px ;
+	margin-right: 0px ;
+	padding: 10px ;
+	float: none ;
+	margin-left: 50px ;
+	margin-right: 50px ;
+	margin-bottom: 30px
+
+
+}
+
+#PortMW {
+	width: 60% ;
+	background: #ffffff ;
+	float: left ;
+	padding: 10px ;
+	/*height: 70% ;*/
+	/*overflow: auto;*/
+	height: 1000px ;
+
+}
+
+#IndImg {
+	float: left ;
+}
+
+img {
+	float: left ;
+	margin-right: 20px ;
+	padding-top: 15px ;
+}
+
+}
+
+@media screen and (max-width: 640px){
+
+	.Bigcontain {
+		width: 100% ;
+	}
+
+	#MainWrap {
+	width: 60% ;
+	background: #ffffff ;
+	float: left ;
+	padding: 10px ;
+	/*height: 70% ;*/
+	overflow: auto;
+	/*height: 1000px ;*/
+}
+
+	#IndMW {
+	width: 60% ;
+	background: #ffffff ;
+	float: left ;
+	padding: 10px ;
+	/*height: 70% ;*/
+	overflow: auto;
+	/*height: 1000px ;*/
+	height: 600px ;
+}
+
+
+
+/*#BigMain {
+	margin-top: 400px ;
+	width: 760px ;
+	height: 1000px ;
+	margin-left: 0px ;
+	margin-right: 0px ;
+	padding: 10px ;
+	float: none ;
+	margin-left: 50px ;
+	margin-right: 50px ;
+	margin-bottom: 30px
+
+
+}*/
+
+#Header {
+	top: 0 ;
+	position: absolute ;
+	width: 88% ;
+	background: #ffffff ;
+	margin: 0 auto ;
+	margin-bottom: 40px ;
+}
+
+#Side {
+	float: left ; 
+	background: #ffffff ;
+	text-align: center ;
+	margin-left: 0px ;
+	top: 0;
+	width: 60% ;
+	margin-top: 30px ;
+	/*bottom: 0 ;*/
+	margin-bottom: 150px ;
+
+}
+
+#Name {
+	background: #4aaaa5 ;
+	width: 100% ;
+}
+
+li {
+	float: left ;
+	margin-left: 15px ;
+	list-style: none ;
+	bottom: 0 ;
+	padding-top: 15px ;
+	text-align: center;
+}
+
+ul {
+	padding-right: 5px ;
+	float: left;
+	text-align: center;
+}
+
+#Footer {
+	background: #666666 ;
+	bottom: 0 ;
+	height: 100px ;
+	width: 100% ;
+	text-align: center ;
+	border-top: 10px solid #4aaaa5 ;
+	float: left;
+}
+
+.Site-footer {
+	margin-top: 400px ;
+	padding-top: 30px ;
+	background: #666666 ;
+	border-top: 10px solid #4aaaa5 ;
+	bottom: 0 ;
+	position: inherit;
+	width: 100% ;
+}
+
+#BigMain {
+	margin-top: 200px ;
+	width: 760px ;
+	height: 600px ;
+	margin-left: 0px ;
+	margin-right: 0px ;
+	padding: 10px ;
+	float: none ;
+	margin-left: 50px ;
+	margin-right: 50px ;
+	margin-bottom: 30px
+
+
+}
+
+/*img {
+	float: none;
+}*/
+
+#PortMW {
+	width: 60% ;
+	background: #ffffff ;
+	float: none ;
+	padding: 10px ;
+	/*height: 70% ;*/
+	/*overflow: auto;*/
+	height: 1000px ;
+
+}
+
+
+
+}
+
+
+
+
+
+
